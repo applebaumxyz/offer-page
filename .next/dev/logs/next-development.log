@@ -9877,3 +9877,173 @@ Module not found: Can't resolve '@/images/photos/image-4.jpg'
 Import map: aliased to relative './src/images/photos/image-4.jpg' inside of [project]/Documents/DevProjects/offer-page
 
 https://nextjs.org/docs/messages/module-not-found
+[02:57:43.610] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[02:57:43.610] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HTTPAccessFallbackBoundary notFound={<SegmentViewNode>} forbidden={undefined} unauthorized={undefined}>
+      <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<SegmentViewNode>} forbidden={undefined} ...>
+        <RedirectBoundary>
+          <RedirectErrorBoundary router={{...}}>
+            <InnerLayoutRouter url="/" tree={[...]} params={{}} cacheNode={{rsc:<Fragment>, ...}} segmentPath={[...]} ...>
+              <SegmentViewNode type="page" pagePath="/Documents...">
+                <SegmentTrieNode>
+                <Home>
+                  ...
+                    <InnerContainer>
+                      <div className="relative p...">
+                        ...
+                          <div className="mb-8 flex ...">
+                            <div className="rounded-fu...">
+                              <img
+                                alt="Sean"
+                                fetchPriority={undefined}
+                                loading={undefined}
+                                width={1699}
+                                height={1699}
+                                decoding="async"
+                                data-nimg="1"
+                                className="h-16 w-16 rounded-full object-cover"
++                               style={{color:"transparent"}}
+-                               style={{color:"transparent",--darkreader-inline-color:"transparent"}}
+                                sizes="4rem"
+                                srcSet={"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.8f433ef5.jpg&w=32&q=75 3..."}
+                                src={"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Favatar.8f433ef5.jpg&w=3840&q=75"}
+                                ref={function}
+                                onLoad={function onLoad}
+                                onError={function onError}
+-                               data-darkreader-inline-color=""
+                              >
+                              ...
+                  <Home>
+                    <Photos>
+                      <div className="mt-16 sm:m...">
+                        <div className="-my-4 flex...">
+                          <div className="relative w...">
+                            <div className="aspect-9/10">
+                              <img
+                                alt=""
+                                fetchPriority={undefined}
+                                loading="lazy"
+                                width={1920}
+                                height={1282}
+                                decoding="async"
+                                data-nimg="1"
+                                className="absolute inset-0 h-full w-full object-cover"
++                               style={{color:"transparent"}}
+-                               style={{color:"transparent",--darkreader-inline-color:"transparent"}}
+                                sizes="(min-width: 640px) 18rem, 11rem"
+                                srcSet={"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-1.35413a14.jpg&w=32&q=75 ..."}
+                                src={"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-1.35413a14.jpg&w=3840&q=75"}
+                                ref={function}
+                                onLoad={function onLoad}
+                                onError={function onError}
+-                               data-darkreader-inline-color=""
+                              >
+                          <div className="relative w...">
+                            <div className="aspect-9/10">
+                              <img
+                                alt=""
+                                fetchPriority={undefined}
+                                loading="lazy"
+                                width={1920}
+                                height={1281}
+                                decoding="async"
+                                data-nimg="1"
+                                className="absolute inset-0 h-full w-full object-cover"
++                               style={{color:"transparent"}}
+-                               style={{color:"transparent",--darkreader-inline-color:"transparent"}}
+                                sizes="(min-width: 640px) 18rem, 11rem"
+                                srcSet={"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-2.16882e34.jpg&w=32&q=75 ..."}
+                                src={"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-2.16882e34.jpg&w=3840&q=75"}
+                                ref={function}
+                                onLoad={function onLoad}
+                                onError={function onError}
+-                               data-darkreader-inline-color=""
+                              >
+                          <div className="relative w...">
+                            <div className="aspect-9/10">
+                              <img
+                                alt=""
+                                fetchPriority={undefined}
+                                loading="lazy"
+                                width={5760}
+                                height={3840}
+                                decoding="async"
+                                data-nimg="1"
+                                className="absolute inset-0 h-full w-full object-cover"
++                               style={{color:"transparent"}}
+-                               style={{color:"transparent",--darkreader-inline-color:"transparent"}}
+                                sizes="(min-width: 640px) 18rem, 11rem"
+                                srcSet={"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-3.994514ef.jpg&w=32&q=75 ..."}
+                                src={"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-3.994514ef.jpg&w=3840&q=75"}
+                                ref={function}
+                                onLoad={function onLoad}
+                                onError={function onError}
+-                               data-darkreader-inline-color=""
+                              >
+                          <div className="relative w...">
+                            <div className="aspect-9/10">
+                              <img
+                                alt=""
+                                fetchPriority={undefined}
+                                loading="lazy"
+                                width={1920}
+                                height={2880}
+                                decoding="async"
+                                data-nimg="1"
+                                className="absolute inset-0 h-full w-full object-cover"
++                               style={{color:"transparent"}}
+-                               style={{color:"transparent",--darkreader-inline-color:"transparent"}}
+                                sizes="(min-width: 640px) 18rem, 11rem"
+                                srcSet={"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-4.0b548b6b.jpg&w=32&q=75 ..."}
+                                src={"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-4.0b548b6b.jpg&w=3840&q=75"}
+                                ref={function}
+                                onLoad={function onLoad}
+                                onError={function onError}
+-                               data-darkreader-inline-color=""
+                              >
+                          <div className="relative w...">
+                            <div className="aspect-9/10">
+                              <img
+                                alt=""
+                                fetchPriority={undefined}
+                                loading="lazy"
+                                width={1920}
+                                height={1280}
+                                decoding="async"
+                                data-nimg="1"
+                                className="absolute inset-0 h-full w-full object-cover"
++                               style={{color:"transparent"}}
+-                               style={{color:"transparent",--darkreader-inline-color:"transparent"}}
+                                sizes="(min-width: 640px) 18rem, 11rem"
+                                srcSet={"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-5.8cd2aeb3.jpg&w=32&q=75 ..."}
+                                src={"/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Fimage-5.8cd2aeb3.jpg&w=3840&q=75"}
+                                ref={function}
+                                onLoad={function onLoad}
+                                onError={function onError}
+-                               data-darkreader-inline-color=""
+                              >
+                  ...
+              ...
+            ...
+
+[03:12:16.287] Server  LOG     ✓ Compiled in 289ms
+[03:12:16.299] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Documents/DevProjects/offer-page/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[03:12:16.299] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Documents/DevProjects/offer-page/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[03:12:16.300] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./Documents/DevProjects/offer-page/node_modules/next/dist/client/image-component.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[03:12:16.834] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:12:16.876] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:12:16.883] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[03:12:17.646] Browser WARN    Image with src "/_next/static/media/image-2.16882e34.jpg" was detected as the Largest Contentful Paint (LCP). Please add the `loading="eager"` property if this image is above the fold.
+Read more: https://nextjs.org/docs/app/api-reference/components/image#loading
