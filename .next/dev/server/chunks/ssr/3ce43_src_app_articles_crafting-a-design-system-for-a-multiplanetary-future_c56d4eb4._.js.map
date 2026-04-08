@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/parispapi/Documents/DevProjects/offer-page/src/app/articles/crafting-a-design-system-for-a-multiplanetary-future/planetaria-design-system.png.mjs%20%28structured%20image%20object%20with%20data%20url%29"],"sourcesContent":["import src from \"IMAGE\";\nexport default { src, width: 1310, height: 872, blurWidth: 8, blurHeight: 5, blurDataURL: \"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAFCAYAAAB4ka1VAAAAnElEQVR42j3Fuw7BUACA4fMGEgZxPzSN3kXatEGLREItTSdtbBaXzUQTD2AymOxe9NfJ8OUTa/uLpz1wtaK8wB3eGau3P7HUn/SVFV1liiz1pEujY1LrWlTaNiI2X9hqTmCdid0LpyjleojZHnPMLEOk1hupzZB6yMBcMPISJvMdfpTg+BtE7nxQjJCOGlBt2hgyxxrsqbUcKnWDHym3Q9c5RRxVAAAAAElFTkSuQmCC\"};\n"],"names":[],"mappings":";;;;AAAA;;uCACe;IAAE,KAAA,uSAAG;IAAE,OAAO;IAAM,QAAQ;IAAK,WAAW;IAAG,YAAY;IAAG,aAAa;AAAoT"}}]
+}
