@@ -8,8 +8,7 @@ export function Footer() {
           <ContainerInner>
             <div className="flex justify-end">
               <p className="text-sm text-zinc-400 dark:text-zinc-500">
-                &copy; 2026 Sean Brown. Operated by Sky Fortunes LLC. All
-                rights reserved.
+                &copy; 2026 Sean Brown. Operated by Sky Fortunes LLC.
               </p>
             </div>
           </ContainerInner>
